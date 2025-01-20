@@ -16,7 +16,7 @@ const Update = () => {
   const getSingleUser = async ()=>{
       
 
-      const response=await fetch(`http://localhost:8000/${id}`);
+      const response=await fetch(`https://mern-editor-app-backend.onrender.com/${id}`);
       
       const result=await response.json();   
 
