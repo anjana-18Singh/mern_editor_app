@@ -38,7 +38,7 @@ const Update = () => {
 
     const updatedUser={name,email,age};
 
-    const response=await fetch(`http://localhost:8000/${id}`,{
+    const response=await fetch(`https://mern-editor-app-backend.onrender.com/${id}`,{
       method:'PATCH',
       body: JSON.stringify(updatedUser),
       headers:{
