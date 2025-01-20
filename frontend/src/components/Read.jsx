@@ -8,7 +8,7 @@ const Read = () => {
     // Fetching data
     async function getData() {
         try {
-            const response = await fetch("http://localhost:8000/api/users"); // Ensure the endpoint is correct
+            const response = await fetch("https://mern-editor-app-backend.onrender.com/api/users"); // Ensure the endpoint is correct
 
             if (!response.ok) {
                 const text = await response.json();
